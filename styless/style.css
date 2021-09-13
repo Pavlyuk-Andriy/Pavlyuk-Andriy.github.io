@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.wrapper{
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+.personal-data{
+	width: 23%;
+	min-width: 200px;
+	height: auto;
+	background-color:darkblue;
+
+}
+.img{
+	display: block;
+	width: 145px;
+	height: 145px;
+}
+.img{
+	border-radius: 50%;
+	overflow: hidden;
+} 
+.data{
+	padding-left: 7px;
+}
+.personal{
+	color: white;
+	border-bottom-style:solid ;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 7px;
+}
+.name{
+	color: white;
+	padding-top: 10px;
+	padding-left: 7px;
+}
+.my-name{
+	color:whitesmoke;
+	font-family: 'Roboto', sans-serif;
+	padding-top:5px;
+	padding-left: 7px;
+}
+
+.addres{
+	color: white;
+	padding-top: 10px;
+	padding-left: 7px;
+}
+.place{
+	color:whitesmoke;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 5px;
+	padding-left: 7px;
+}
+.number{
+	color: white;
+	padding-top: 10px;
+	padding-left: 7px;
+}
+.figure{
+	color:whitesmoke;
+	font-family: 'Roboto', sans-serif;	
+	padding-top: 5px;
+	padding-left: 7px;
+}
+.email{
+	color: white;
+	padding-top:10px;
+
+}
+.post{
+	color:whitesmoke;
+	font-family: 'Roboto', sans-serif;	
+	padding-top: 5px;	
+}
+.birthday{
+	color: white;
+	padding-top: 10px	
+}
+.age{
+	color:whitesmoke;
+	font-family: 'Roboto', sans-serif;	
+	padding-top: 5px;	
+}
+.interest{
+	padding-left: 7px;
+}
+.interesting{
+	color: white;
+	border-bottom-style:solid ;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10px;
+}
+.learn{
+	color:whitesmoke;
+	font-family: 'Roboto', sans-serif;	
+	padding-top: 5px;
+}
+.robot{
+	color:whitesmoke;
+	font-family: 'Roboto', sans-serif;	
+	padding-top: 5px;
+}
+.psyhology{
+	color:whitesmoke;
+	font-family: 'Roboto', sans-serif;	
+	padding-top: 5px;
+}
+.language{
+	padding-left: 7px;
+}
+.mind{
+	color: white;
+	border-bottom-style:solid ;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 15px;
+}
+.ua{
+	color:whitesmoke;
+	font-family: 'Roboto', sans-serif;	
+	padding-top: 5px;	
+}
+.en{
+	color:whitesmoke;
+	font-family: 'Roboto', sans-serif;	
+	padding-top: 5px;	
+}
+.surname{
+	padding-left: 30px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 15px;
+	font-size: 30px;
+	border-bottom-style:solid ;
+   	border-color:gray ;
+}
+.experience{
+	padding-left: 30px;
+	padding-top: 25px;
+	border-bottom-style: solid;
+	border-color: lightgray;
+}
+.developer{
+	padding-left: 30px;
+	padding-top: 25px;
+	font-family: 'Roboto', sans-serif;
+}
