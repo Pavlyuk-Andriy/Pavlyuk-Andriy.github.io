@@ -125,22 +125,40 @@ img{
 	padding-top: 15px;
 }
 .ua{
+	display: flex;
 	color:whitesmoke;
 	font-family: 'Roboto', sans-serif;	
-	padding-top: 5px;	
+	padding-top: 5px;
+	justify-content: space-between;	
+	font-size: 15px;
+}
+.rating{
+	font-size: 10px;
+	padding-right: 10px;	
 }
 .en{
+	display: flex;
 	color:whitesmoke;
 	font-family: 'Roboto', sans-serif;	
-	padding-top: 5px;	
+	padding-top: 5px;
+	justify-content: space-between;	
+	font-size: 15px;
+}
+.rating{
+	font-size: 10px;
+	padding-right: 10px;
+}
+.description{
+	padding-left: 15px;
 }
 .surname{
 	padding-left: 30px;
 	font-family: 'Roboto', sans-serif;
 	padding-top: 15px;
-	font-size: 30px;
+	font-size: 25px;
 	border-bottom-style:solid ;
    	border-color:gray ;
+
 }
 .experience{
 	padding-left: 30px;
@@ -152,4 +170,36 @@ img{
 	padding-left: 30px;
 	padding-top: 25px;
 	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+}
+.education{
+	padding-left: 30px;
+	padding-top: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	border-bottom-style: solid;
+	border-color: lightgray;
+	
+}
+.position{
+	padding-left: 30px;
+	padding-top: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;	
+}
+.skill{
+	padding-left: 30px;
+	padding-top: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	border-bottom-style: solid;
+	border-color: lightgray;
+}
+.my-works{
+	padding-left: 30px;
+	padding-top: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	border-bottom-style: solid;
+	border-color: lightgray;	
 }
