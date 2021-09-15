@@ -71,10 +71,11 @@ img{
 	font-family: 'Roboto', sans-serif;	
 	padding-top: 5px;
 	padding-left: 7px;
+	font-size: 10px;
 }
 .email{
 	color: white;
-	padding-top:10px;
+	padding-top:20px;
 
 }
 .post{
@@ -171,6 +172,14 @@ img{
 	padding-top: 25px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 25px;
+}
+.city{
+	padding-left: 30px;
+	padding-top: 5px;
+}
+.develoopment{
+	padding-left: 30px;
+	padding-top: 5px;
 }
 .education{
 	padding-left: 30px;
