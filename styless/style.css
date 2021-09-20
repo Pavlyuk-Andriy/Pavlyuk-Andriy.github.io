@@ -72,7 +72,7 @@ img{
 	padding-left: 7px;
 	font-family: 'Roboto', sans-serif;
 }
-.figure{
+.my-number{
 	color:whitesmoke;
 	font-family: 'Roboto', sans-serif;	
 	padding-top: 5px;
@@ -86,7 +86,7 @@ img{
 
 }
 .post{
-	color:whitesmoke;
+	color: #3c4043;
 	font-family: 'Roboto', sans-serif;	
 	padding-top: 5px;	
 	font-size: 15px;
@@ -229,6 +229,25 @@ img{
 }
 
 .works{
-	color:#020000;
+	color:black;
 }
 
+.soc-icons{
+	padding-top: 150px;
+	font-size: 30px;
+	display: flex;
+
+	
+}
+.icon_i{
+	display: flex;
+	color: black;
+}
+.icon_i:hover{
+	background-color: #d3d3d3;
+}
+.icon_f{
+	color: blue;
+}
+.icon_f:hover{
+	background-color: #d3d3d3;
