@@ -27,6 +27,7 @@ img{
 	height: 145px;
 }
 .img{
+	margin-left:27px ;
 	border-radius: 50%;
 	overflow: hidden;
 } 
@@ -83,7 +84,20 @@ img{
 	color: white;
 	padding-top:20px;
 	font-family: 'Roboto', sans-serif;
-
+}
+.my-number a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+.my-number:hover{
+	text-decoration: underline;
+}
+.post a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+.post:hover{
+	text-decoration: underline;
 }
 .post{
 	color: #3c4043;
@@ -228,26 +242,51 @@ img{
 	border-color: lightgray;	
 }
 
-.works{
+.works {
 	color:black;
+	text-decoration: none;
 }
+.works:hover{
+	text-decoration: underline;
+}
+
 
 .soc-icons{
-	padding-top: 150px;
+	padding-top: 20px;
 	font-size: 30px;
-	display: flex;
+}	
 
-	
-}
 .icon_i{
 	display: flex;
 	color: black;
+	margin-left:10px ;
 }
 .icon_i:hover{
-	background-color: #d3d3d3;
+	background-color: white;
 }
 .icon_f{
 	color: blue;
+	text-decoration: ;
 }
 .icon_f:hover{
-	background-color: #d3d3d3;
+	background-color:white;
+}
+
+
+
+
+
+.menu{
+	list-style: none;
+	display: flex;
+	padding-left: 30%;
+	background-color: #3f6592;
+}
+.menu-item{
+	padding-left: 15px;
+	text-decoration: none;
+	color: white;
+}
+.menu-item:hover{
+	text-decoration: underline;
+}
