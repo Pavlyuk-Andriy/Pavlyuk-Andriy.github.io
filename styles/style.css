@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.wrap{
+	display: flex;
+}
+.image{
+	width: 300px;
+	height: auto;
+}
+.titlle{
+	margin-left:150px ;
+	margin-top: 30px;
+}
+
+.name{
+	font-size: 25px;
+	padding-top: 10px;
+	margin-left: 50px;
+	
+}
+
+	
+.price{
+	padding-left: 70px;
+	color: gray;
+	position: relative;
+	border-bottom:1px solid #d3d3d3;
+
+}
+.price:after{
+	content:'';
+	display: block;
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: rotate(45deg);
+	width: 10px;
+	height: 10px;
+	background: #d3d3d3;
+}
