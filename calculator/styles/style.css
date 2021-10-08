@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.wrap{
+	margin: 100px;
+	width: 250px;
+	height: 480px;
+	border: 3px solid darkgreen;
+}
+.title{
+	position:relative;
+}
+.model{
+	background: #2A9F7B;
+	padding: 20px;
+	margin: 5px;
+}
+.name{
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.input{
+	border:3px solid #2a9f7b;
+	padding: 20px;
+	margin: 5px;
+}
+.abc{
+	font-weight: bold;
+	font-size: 15px;
+	color:#2a9f7b;
+	position: absolute;
+	right: 10px;
+	top: 50px;
+}
+.backgr{
+	background: #2A9F7B;
+	padding: 17px;
+	margin: 5px;
+	margin-left: 200px;
+}
+.sumbol1{
+	display: flex;
+}
+
+.seven{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 7px;
+	margin: 7px;
+}
+.seven:active{
+	background: #d3d3d3;
+}
+.eight{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;	
+}
+.eight:active{
+	background: #d3d3d3;
+}
+.nine{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+}
+.nine:active{
+	background: #d3d3d3;
+}
+.plus{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+}
+.plus:active{
+	background: #d3d3d3;
+}
+.sumbol2{
+	display: flex;
+}
+.four{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+}
+.four:active{
+	background: #d3d3d3;
+}
+.five{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+}
+.five:active{
+	background: #d3d3d3;
+}
+.six{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+}
+.six:active{
+	background: #d3d3d3;
+}
+
+.minus{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+	min-width: 40px;
+}
+.minus:active{
+	background: #d3d3d3;
+}
+.sumbol3{
+	display: flex;
+}
+.one{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;	
+}
+.one:active{
+	background: #d3d3d3;
+}
+.two{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+}
+.two:active{
+	background: #d3d3d3;
+}
+.three{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+}
+.three:active{
+	background: #d3d3d3;
+}
+.slash{
+	min-width: 40px;
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+}
+.slash:active{
+	background: #d3d3d3;
+}
+.sumbol4{
+	display: flex;
+}
+.coma{
+	min-width: 40px;
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;	
+}
+.coma:active{
+	background: #d3d3d3;
+}
+.zero{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+}
+.zero:active{
+	background: #d3d3d3;
+}
+.doriv{
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+}
+.doriv:active{
+	background: #d3d3d3;
+}
+.ziro{
+	min-width: 40px;
+	color: #2A9F7B;
+	border: 3px solid #2A9F7B;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 8px;
+}
+.ziro:active{
+	background: #d3d3d3;
+}
