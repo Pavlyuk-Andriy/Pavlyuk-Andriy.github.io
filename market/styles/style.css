@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+img{
+	display: block;
+	width: 100%;
+}
+body{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.title{
+	text-transform: uppercase;
+	margin: 15px 200px;
+	margin-bottom: 40px;
+}
+.wrap{
+	position: relative;
+	text-transform: uppercase;
+}
+.btn-left{
+	position: absolute;
+	border-radius: 50%;
+	background: #fff;
+	border: 1px solid #000;
+	padding: 7px;
+	left: -10px;
+	top: 42px;
+}
+.btn-right{
+	position: absolute;
+	border-radius: 50%;
+	background: #fff;
+	border: 1px solid #000;
+	padding: 7px;
+	right: -10px;
+	top: 42px;	
+}
+.btn-left:active{
+	background: #d3d3d3;
+}
+.btn-right:active{
+	background: #d3d3d3;
+}
+.wrap-item{
+	position: relative;
+	width: 200px;
+	height: 350px;
+	border: 1px solid #000;
+	float: left;
+}
+.sticker{
+	position: absolute;
+	right: 3px;
+	top: -35px;
+	width: 50px;
+	height: 50px;
+	font-size: 7px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 15px;
+	color: #fff;
+	border: 2px solid #fff;
+}
+.sticker-new{
+	background-color: green;
+}
+.sticker-hit{
+	background:#08ABFD;
+}
+.wrap-item{
+	padding-right:5px;
+	padding-left:20px;
+}
+
+.category{
+	margin: 20px;
+}
+.categ-text{
+	font-size: 15px;
+}
+.categ-text2{
+	font-size: 12px;
+	padding-top: 3px;
+	padding-bottom: 1px;
+}
+img{
+	height: 150px;
+	width: 150px;
+	border-top: 1px solid #000;
+	padding-top: 10px;
+}
+.name{
+	color: #08ABFD;
+	font-weight: bold;
+	margin-right: 35px;
+	margin-top: 15px;
+	text-align: center;
+
+}
+.wrap-text{
+	font-size: 13px;
+}
+.price{
+	min-height: 20px;
+}
+.soon{
+	text-align: center;
+	margin-right: 25px;
+	margin-top: 40px;
+	background: #F92764;
+	padding: 3px 10px 3px 10px;
+	color: #fff;
+
+}
+.basket{
+	margin-top: 10px;
+	padding: 15px;
+	background: yellow;
+}
+.basket a{
+	text-decoration: none;
+	color: #000;
+}
+.basket:active{
+	background: #FEFFC0;
+}
+.basket:hover{
+	text-decoration: underline	;
+}
+.price{
+	float: left;
+	text-decoration: line-through;
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 10px;
+
+}
+.new-price{
+	font-size: 13px;
+	font-weight: bold;	
+	margin-top: 14px;
+	margin-left: 48px;
+}
